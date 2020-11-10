@@ -1,4 +1,4 @@
-# eos: A lightweight header-only 3D Morphable Face Model fitting library in modern C++11/14.
+# eos: A lightweight header-only 3D Morphable Face Model fitting library in modern C++11/14 Travis test.
 [![Latest release](http://img.shields.io/github/release/patrikhuber/eos.svg?style=flat-square)][release]
 [![Linux build status of master branch](https://img.shields.io/travis/patrikhuber/eos/master.svg?style=flat-square&label=Linux/macOS%3A%20build)][travis]
 [![Windows build status of master branch](https://ci.appveyor.com/api/projects/status/gekekpn08cdgqcsk/branch/master?svg=true&passingText=Windows%3A%20build%20passing&failingText=Windows%3A%20build%20failing&pendingText=Windows%3A%20build%20pending)][appveyor]
