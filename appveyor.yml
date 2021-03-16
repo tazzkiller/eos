@@ -36,5 +36,5 @@ configuration:
   - Release
 
 artifacts:
-  - path: myapp.zip
+  - path: '%home%\myapp.zip'
     name: MyApp
