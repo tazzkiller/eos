@@ -30,11 +30,11 @@ build:
 
 after_build: # We're still in %home%\build
   - cmd: '%cmake% --build . --target INSTALL --config Release'
-  - cmd: 7z a myapp.zip "C:\projects\*"
+  - cmd: 7z a C:\projects\eos\myapp.zip "C:\projects\*"
 
 configuration:
   - Release
 
 artifacts:
-  - path: '..\myapp.zip'
+  - path: myapp.zip
     name: MyApp
