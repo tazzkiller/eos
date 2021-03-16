@@ -30,7 +30,7 @@ build:
 
 after_build: # We're still in %home%\build
   - cmd: '%cmake% --build . --target INSTALL --config Release'
-  - 7z a myapp.zip "C:\projects\*"
+  - cmd: 7z a myapp.zip "C:\projects\*"
 
 configuration:
   - Release
